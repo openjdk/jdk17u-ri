@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023, Oracle and/or its affiliates. All rights reserved.
+ * Copyright (c) 2023, 2024, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
  *
  * This code is free software; you can redistribute it and/or modify it
@@ -58,7 +58,7 @@ import java.security.spec.AlgorithmParameterSpec;
  * encapsulation message.
  * <p>
  * For example,
- * {@snippet lang = java:
+ * <pre>{@code
  * public static class MyKEMImpl implements KEMSpi {
  *
  *     @Override
@@ -99,7 +99,7 @@ import java.security.spec.AlgorithmParameterSpec;
  *
  *     // ...
  * }
- * }
+ * }</pre>
  *
  * @see KEM
  * @since 21

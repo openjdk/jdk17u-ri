@@ -65,7 +65,7 @@ import java.util.Objects;
  * <p>
  *
  * Example:
- * {@snippet lang = java:
+ * <pre>{@code
  *    // Receiver side
  *    var kpg = KeyPairGenerator.getInstance("X25519");
  *    var kp = kpg.generateKeyPair();
@@ -82,7 +82,7 @@ import java.util.Objects;
  *    var k2 = receiver.decapsulate(encapsulated.encapsulation());
  *
  *    assert Arrays.equals(k1.getEncoded(), k2.getEncoded());
- * }
+ * }</pre>
  *
  * @since 21
  */
