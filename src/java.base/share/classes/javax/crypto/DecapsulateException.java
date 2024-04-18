@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2023, Oracle and/or its affiliates. All rights reserved.
+ * Copyright (c) 2023, 2024, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.
  *
  * This code is free software; you can redistribute it and/or modify it
@@ -31,7 +31,8 @@ import java.security.GeneralSecurityException;
  * {@link javax.crypto.KEM.Decapsulator#decapsulate} method to denote an
  * error during decapsulation.
  *
- * @since 21
+ * @apiNote This field is defined in Java SE 17 Maintenance Release 1.
+ * @since 17
  */
 public class DecapsulateException extends GeneralSecurityException {
 

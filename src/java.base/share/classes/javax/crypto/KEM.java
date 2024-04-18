@@ -84,7 +84,8 @@ import java.util.Objects;
  *    assert Arrays.equals(k1.getEncoded(), k2.getEncoded());
  * }</pre>
  *
- * @since 21
+ * @apiNote This field is defined in Java SE 17 Maintenance Release 1.
+ * @since 17
  */
 public final class KEM {
 
