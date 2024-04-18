@@ -100,7 +100,8 @@ public final class KEM {
      * @see #newEncapsulator(PublicKey, AlgorithmParameterSpec, SecureRandom)
      * @see Encapsulator#encapsulate(int, int, String)
      *
-     * @since 21
+     * @apiNote This class is defined in Java SE 17 Maintenance Release 1.
+     * @since 17
      */
     public static final class Encapsulated {
         private final SecretKey key;
@@ -167,7 +168,8 @@ public final class KEM {
      * new secret key and key encapsulation message that is returned
      * in an {@link Encapsulated} object.
      *
-     * @since 21
+     * @apiNote This class is defined in Java SE 17 Maintenance Release 1.
+     * @since 17
      */
     public static final class Encapsulator {
 
@@ -282,7 +284,8 @@ public final class KEM {
      * An invocation of the {@code decapsulate} method recovers the
      * secret key from the key encapsulation message.
      *
-     * @since 21
+     * @apiNote This class is defined in Java SE 17 Maintenance Release 1.
+     * @since 17
      */
     public static final class Decapsulator {
         private final KEMSpi.DecapsulatorSpi d;

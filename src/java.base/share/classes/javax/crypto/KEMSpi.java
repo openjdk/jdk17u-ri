@@ -113,7 +113,8 @@ public interface KEMSpi {
      *
      * @see KEM.Encapsulator
      *
-     * @since 21
+     * @apiNote This interface is defined in Java SE 17 Maintenance Release 1.
+     * @since 17
      */
     interface EncapsulatorSpi {
         /**
@@ -168,7 +169,8 @@ public interface KEMSpi {
      *
      * @see KEM.Decapsulator
      *
-     * @since 21
+     * @apiNote This interface is defined in Java SE 17 Maintenance Release 1.
+     * @since 17
      */
     interface DecapsulatorSpi {
         /**
