@@ -102,7 +102,7 @@ import java.security.spec.AlgorithmParameterSpec;
  * }</pre>
  *
  * @see KEM
- * @apiNote This field is defined in Java SE 17 Maintenance Release 1.
+ * @apiNote This interface is defined in Java SE 17 Maintenance Release 1.
  * @since 17
  */
 public interface KEMSpi {

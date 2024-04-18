@@ -31,7 +31,7 @@ import java.security.GeneralSecurityException;
  * {@link javax.crypto.KEM.Decapsulator#decapsulate} method to denote an
  * error during decapsulation.
  *
- * @apiNote This field is defined in Java SE 17 Maintenance Release 1.
+ * @apiNote This class is defined in Java SE 17 Maintenance Release 1.
  * @since 17
  */
 public class DecapsulateException extends GeneralSecurityException {
